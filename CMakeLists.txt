@@ -11,6 +11,7 @@
 cmake_minimum_required(VERSION 3.10...3.13)
 project(FACE VERSION 1.1.1 LANGUAGES Fortran)
 
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
 # seach path for additional cmake modules
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_LIST_DIR}/cmake/Modules)
